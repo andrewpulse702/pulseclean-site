@@ -3,36 +3,148 @@
 <head>
 
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>PulseClean Laser Technologies</title>
+<title>PulseClean Laser Technologies | Industrial Laser Cleaning Australia</title>
 
-<link rel="stylesheet" href="style.css">
+<meta name="description" content="PulseClean Laser Technologies provides industrial laser cleaning solutions across Australia. Rust removal, graffiti removal, surface preparation and laser cleaning machines.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
 <style>
 
-.hero{
-height:600px;
-background:url("https://images.unsplash.com/photo-1581091215367-59ab6d2ef8b1") center/cover;
+body{
+margin:0;
+font-family:Montserrat, sans-serif;
+background:#0c0c0c;
+color:white;
+}
+
+.container{
+width:90%;
+max-width:1200px;
+margin:auto;
+}
+
+header{
+background:#000;
+border-bottom:1px solid #222;
+}
+
+.nav{
 display:flex;
+justify-content:space-between;
 align-items:center;
-justify-content:center;
+padding:20px 0;
+}
+
+.logo{
+font-size:22px;
+font-weight:700;
+color:#00d4ff;
+}
+
+nav a{
+margin-left:30px;
+text-decoration:none;
+color:white;
+font-size:14px;
+}
+
+.hero{
+padding:120px 0;
+background:linear-gradient(180deg,#000,#0f0f0f);
 text-align:center;
 }
 
-.hero-overlay{
-background:rgba(0,0,0,0.65);
-padding:60px;
+.hero h1{
+font-size:52px;
+max-width:800px;
+margin:auto;
 }
 
-.cta-buttons a{
-margin:10px;
+.hero p{
+margin-top:20px;
+font-size:18px;
+color:#aaa;
 }
 
-.beforeafter{
+.cta{
+margin-top:40px;
+}
+
+.button{
+background:#00d4ff;
+padding:14px 32px;
+color:#000;
+font-weight:600;
+text-decoration:none;
+border-radius:4px;
+}
+
+section{
+padding:80px 0;
+}
+
+.section-title{
+text-align:center;
+font-size:34px;
+margin-bottom:60px;
+}
+
+.grid{
 display:grid;
-grid-template-columns:1fr 1fr;
+grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
 gap:40px;
+}
+
+.card{
+background:#121212;
+padding:30px;
+border-radius:8px;
+border:1px solid #222;
+}
+
+.card h3{
+margin-top:0;
+}
+
+.machines{
+background:#080808;
+}
+
+.machine{
+background:#111;
+padding:40px;
+border-radius:8px;
+border:1px solid #222;
+}
+
+.machine h4{
+margin-top:0;
+color:#00d4ff;
+}
+
+.cta-section{
+background:#00d4ff;
+color:black;
+text-align:center;
+padding:100px 20px;
+}
+
+.cta-section h2{
+font-size:36px;
+}
+
+footer{
+background:#000;
+padding:50px 0;
+text-align:center;
+font-size:14px;
+color:#777;
 }
 
 </style>
@@ -43,36 +155,37 @@ gap:40px;
 
 <header>
 
+<div class="container nav">
+
 <div class="logo">PulseClean Laser Technologies</div>
 
 <nav>
-<a href="technology.html">Technology</a>
-<a href="restoration.html">Restoration</a>
-<a href="industries.html">Industries</a>
-<a href="equipment.html">Equipment</a>
-<a href="contact.html">Contact</a>
+
+<a href="#">Home</a>
+<a href="#">Services</a>
+<a href="#">Machines</a>
+<a href="#">Industries</a>
+<a href="#">Contact</a>
+
 </nav>
+
+</div>
 
 </header>
 
 <section class="hero">
 
-<div class="hero-overlay">
+<div class="container">
 
-<h1>Advanced Laser Surface Cleaning</h1>
+<h1>Industrial Laser Cleaning Solutions</h1>
 
 <p>
-Precision laser cleaning solutions for restoration,
-graffiti removal, industrial maintenance and automotive restoration.
+Rust removal, graffiti removal and surface preparation using advanced pulsed laser technology.
 </p>
 
-<div class="cta-buttons">
+<div class="cta">
 
-<a class="button">Request Demo</a>
-
-<a class="button">View Applications</a>
-
-<a class="button">Buy Laser System</a>
+<a class="button" href="#">Request Quote</a>
 
 </div>
 
@@ -80,106 +193,169 @@ graffiti removal, industrial maintenance and automotive restoration.
 
 </section>
 
-<section class="section">
+<section>
 
-<h2>Core Services</h2>
+<div class="container">
+
+<h2 class="section-title">Laser Cleaning Services</h2>
 
 <div class="grid">
 
 <div class="card">
+
+<h3>Rust Removal</h3>
+
+<p>
+Precision laser rust removal for steel, industrial structures, machinery and marine equipment.
+</p>
+
+</div>
+
+<div class="card">
+
 <h3>Graffiti Removal</h3>
+
 <p>
-Safe removal from brick, concrete and sandstone.
-Ideal for councils and infrastructure.
+Non-abrasive graffiti removal ideal for councils, heritage buildings and commercial properties.
 </p>
+
 </div>
 
 <div class="card">
+
+<h3>Surface Preparation</h3>
+
+<p>
+Laser cleaning prepares metal surfaces for welding, coating and restoration.
+</p>
+
+</div>
+
+<div class="card">
+
 <h3>Industrial Cleaning</h3>
+
 <p>
-Rust removal, weld cleaning and coating removal for
-steel structures and equipment.
+Oil, paint, oxide layers and contaminants removed safely using pulsed laser technology.
 </p>
+
 </div>
 
-<div class="card">
-<h3>Building Restoration</h3>
-<p>
-Heritage sandstone cleaning and architectural restoration.
-</p>
-</div>
-
-<div class="card">
-<h3>Automotive Restoration</h3>
-<p>
-Rust removal and paint stripping for classic cars and components.
-</p>
-</div>
-
-<div class="card">
-<h3>Laser Equipment Sales</h3>
-<p>
-Portable and industrial laser cleaning systems available
-for workshops and factories.
-</p>
 </div>
 
 </div>
 
 </section>
 
-<section class="section">
+<section class="machines">
 
-<h2>Industries We Serve</h2>
+<div class="container">
+
+<h2 class="section-title">Laser Cleaning Machines</h2>
 
 <div class="grid">
 
-<div class="card">Local Government</div>
-<div class="card">Heritage Restoration</div>
-<div class="card">Automotive Restoration</div>
-<div class="card">Construction & Steel</div>
-<div class="card">Rail Infrastructure</div>
-<div class="card">Manufacturing</div>
-<div class="card">Marine</div>
+<div class="machine">
+
+<h4>GTR-300</h4>
+
+<p>
+Compact pulsed laser cleaning machine ideal for mobile operators and small industrial work.
+</p>
+
+</div>
+
+<div class="machine">
+
+<h4>GTR-500</h4>
+
+<p>
+Professional grade system for contractors and heavy duty cleaning applications.
+</p>
+
+</div>
+
+<div class="machine">
+
+<h4>GTR-1000</h4>
+
+<p>
+High power industrial laser cleaning system designed for large scale projects.
+</p>
+
+</div>
+
+</div>
 
 </div>
 
 </section>
 
-<section class="section">
+<section>
 
-<h2>Laser Cleaning Results</h2>
+<div class="container">
 
-<div class="beforeafter">
+<h2 class="section-title">Industries We Work With</h2>
 
-<div class="card">
-
-<h3>Before</h3>
-
-<p>Rust and contamination on steel surface.</p>
-
-</div>
+<div class="grid">
 
 <div class="card">
 
-<h3>After</h3>
+<h3>Councils</h3>
 
-<p>Clean metal surface using laser cleaning.</p>
+<p>Graffiti removal programs and infrastructure maintenance.</p>
+
+</div>
+
+<div class="card">
+
+<h3>Construction</h3>
+
+<p>Steel cleaning, weld prep and coating removal.</p>
+
+</div>
+
+<div class="card">
+
+<h3>Manufacturing</h3>
+
+<p>Precision cleaning for production environments.</p>
+
+</div>
+
+<div class="card">
+
+<h3>Marine</h3>
+
+<p>Rust removal and corrosion treatment for marine equipment.</p>
 
 </div>
 
 </div>
+
+</div>
+
+</section>
+
+<section class="cta-section">
+
+<h2>Request a Laser Cleaning Quote</h2>
+
+<p>Contact PulseClean Laser Technologies to discuss your project.</p>
+
+<br>
+
+<a class="button" href="#">Contact Us</a>
 
 </section>
 
 <footer>
 
-PulseClean Laser Technologies
+<div class="container">
 
-<br>
+© 2026 PulseClean Laser Technologies
 
-Advanced laser cleaning solutions for restoration,
-industry and infrastructure.
+</div>
 
 </footer>
 
