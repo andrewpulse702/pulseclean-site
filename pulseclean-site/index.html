@@ -7,9 +7,9 @@
 
 <title>PulseClean Laser Technologies | Laser Surface Restoration</title>
 
-<meta name="description" content="PulseClean Laser Technologies provides precision laser surface restoration including automotive restoration, sandstone cleaning, rust removal and graffiti removal.">
+<meta name="description" content="PulseClean Laser Technologies provides precision laser surface restoration including automotive restoration, heritage sandstone cleaning, corrosion removal and graffiti removal.">
 
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
 <style>
 
@@ -26,123 +26,124 @@ margin:auto;
 padding:0 20px;
 }
 
-  <header class="site-header">
-  <div class="container header-inner">
+/* Header */
 
-  <header>
-  <div class="logo">
-    <a href="index.html">
-      <img src="images/pulseclean-logo.png" alt="PulseClean Laser Technologies">
-    </a>
-  </div>
+.site-header{
+background:#000;
+border-bottom:1px solid #1e1e1e;
+}
 
-    <nav class="main-nav">
-      <a href="index.html">Home</a>
-      <a href="restoration.html">Surface Restoration</a>
-      <a href="graffiti-removal-sydney.html">Graffiti Removal</a>
-      <a href="laser-rust-removal.html">Rust Removal</a>
-      <a href="equipment.html">Equipment</a>
-      <a href="contact.html" class="cta">Contact</a>
-    </nav>
-
-  </div>
-</header>
-
-.nav{
+.header-inner{
 display:flex;
-justify-content:space-between;
 align-items:center;
-padding:20px 0;
+justify-content:space-between;
+padding:16px 0;
 }
 
-.logo{
-font-size:22px;
-font-weight:700;
-color:#00d4ff;
+.logo img{
+height:48px;
 }
 
-nav a{
+.main-nav{
+display:flex;
+gap:28px;
+}
+
+.main-nav a{
 color:white;
 text-decoration:none;
-margin-left:25px;
-font-size:14px;
+font-weight:500;
+font-size:15px;
 }
 
-.hero{
-padding:140px 0;
-text-align:center;
-background:linear-gradient(#000,#111);
+.main-nav a:hover{
+color:#53d3ff;
 }
 
-.hero h1{
-font-size:52px;
-}
-
-.hero p{
-color:#aaa;
-max-width:700px;
-margin:auto;
-margin-top:20px;
-}
-
-.button{
-display:inline-block;
-background:#00d4ff;
-color:black;
-padding:14px 32px;
-margin-top:30px;
-font-weight:600;
-text-decoration:none;
+.main-nav .cta{
+background:#53d3ff;
+color:#000;
+padding:8px 14px;
 border-radius:4px;
 }
 
-section{
-padding:80px 0;
+/* Hero */
+
+.hero{
+text-align:center;
+padding:120px 20px;
+background:#000;
 }
 
-.section-title{
+.hero h1{
+font-size:56px;
+font-weight:700;
+margin-bottom:20px;
+}
+
+.hero p{
+max-width:700px;
+margin:auto;
+font-size:18px;
+color:#bdbdbd;
+margin-bottom:40px;
+}
+
+.hero button{
+background:#53d3ff;
+border:none;
+padding:16px 32px;
+font-size:16px;
+font-weight:600;
+border-radius:6px;
+cursor:pointer;
+}
+
+/* Services */
+
+.services{
+padding:80px 20px;
+background:#0a0a0a;
 text-align:center;
-font-size:34px;
+}
+
+.services h2{
+font-size:40px;
 margin-bottom:50px;
 }
 
-.grid{
+.service-grid{
 display:grid;
-grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
-gap:40px;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:30px;
 }
 
-.card{
-background:#121212;
-padding:30px;
-border-radius:8px;
-border:1px solid #222;
-}
-
-.card h3{
-color:#00d4ff;
-margin-top:0;
-}
-
-.machine{
+.service-card{
 background:#111;
-padding:30px;
+padding:40px 25px;
 border-radius:8px;
-border:1px solid #222;
+border:1px solid #1e1e1e;
 }
 
-.cta{
-background:#00d4ff;
-color:black;
-text-align:center;
-padding:100px 20px;
+.service-card h3{
+color:#53d3ff;
+margin-bottom:10px;
 }
+
+.service-card p{
+color:#bdbdbd;
+font-size:15px;
+}
+
+/* Footer */
 
 footer{
-background:#000;
-padding:40px;
+padding:40px 20px;
 text-align:center;
+background:#000;
+border-top:1px solid #1e1e1e;
 color:#777;
+font-size:14px;
 }
 
 </style>
@@ -151,26 +152,26 @@ color:#777;
 
 <body>
 
-<header>
+<header class="site-header">
+<div class="container header-inner">
 
-<div class="container nav">
+<div class="logo">
+<a href="index.html">
+<img src="images/pulseclean-logo.png" alt="PulseClean Laser Technologies">
+</a>
+</div>
 
-<div class="logo">PulseClean Laser Technologies</div>
-
-<nav>
-
+<nav class="main-nav">
 <a href="index.html">Home</a>
 <a href="restoration.html">Restoration</a>
 <a href="equipment.html">Equipment</a>
 <a href="technology.html">Technology</a>
 <a href="industries.html">Industries</a>
 <a href="case-studies.html">Case Studies</a>
-<a href="contact.html">Contact</a>
-
+<a href="contact.html" class="cta">Contact</a>
 </nav>
 
 </div>
-
 </header>
 
 <section class="hero">
@@ -178,120 +179,47 @@ color:#777;
 <h1>Precision Laser Surface Restoration</h1>
 
 <p>
-Advanced pulsed laser technology for automotive restoration, heritage sandstone cleaning, corrosion removal and graffiti removal.
+Advanced pulsed laser technology for automotive restoration, heritage sandstone cleaning,
+corrosion removal and graffiti removal.
 </p>
 
-<a class="button" href="contact.html">Request Restoration Quote</a>
+<button onclick="location.href='contact.html'">
+Request Restoration Quote
+</button>
 
 </section>
 
-<section>
+<section class="services">
 
 <div class="container">
 
-<h2 class="section-title">Restoration Services</h2>
+<h2>Restoration Services</h2>
 
-<div class="grid">
+<div class="service-grid">
 
-<div class="card">
-
+<div class="service-card">
 <h3>Automotive Restoration</h3>
-
-<p>
-Laser cleaning removes rust and coatings from vehicle components without abrasive blasting.
-</p>
-
+<p>Precision laser cleaning for automotive components, rust removal and surface preparation.</p>
 </div>
 
-<div class="card">
-
+<div class="service-card">
 <h3>Heritage Restoration</h3>
-
-<p>
-Safe cleaning for sandstone, monuments and historic buildings.
-</p>
-
+<p>Non-abrasive cleaning for sandstone buildings, monuments and historic structures.</p>
 </div>
 
-<div class="card">
-
+<div class="service-card">
 <h3>Rust Removal</h3>
-
-<p>
-Precision rust removal from steel structures and machinery.
-</p>
-
+<p>Industrial corrosion removal for steel structures, machinery and infrastructure.</p>
 </div>
 
-<div class="card">
-
+<div class="service-card">
 <h3>Graffiti Removal</h3>
-
-<p>
-Non-abrasive graffiti removal for councils and infrastructure.
-</p>
-
+<p>Safe graffiti removal from stone, brick, metal and public infrastructure surfaces.</p>
 </div>
 
 </div>
 
 </div>
-
-</section>
-
-<section>
-
-<div class="container">
-
-<h2 class="section-title">Laser Cleaning Machines</h2>
-
-<div class="grid">
-
-<div class="machine">
-
-<h3>GTR-300</h3>
-
-<p>Portable restoration system for contractors.</p>
-
-</div>
-
-<div class="machine">
-
-<h3>GTR-500</h3>
-
-<p>Professional laser cleaner for restoration work.</p>
-
-</div>
-
-<div class="machine">
-
-<h3>GTR-1000</h3>
-
-<p>Industrial laser system for heavy restoration.</p>
-
-</div>
-
-<div class="machine">
-
-<h3>GTR-2000</h3>
-
-<p>Ultra high-power laser cleaning platform for infrastructure restoration.</p>
-
-</div>
-
-</div>
-
-</div>
-
-</section>
-
-<section class="cta">
-
-<h2>Discuss Your Restoration Project</h2>
-
-<p>Contact PulseClean Laser Technologies to assess your restoration project.</p>
-
-<a class="button" href="contact.html">Contact Us</a>
 
 </section>
 
